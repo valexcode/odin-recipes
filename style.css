@@ -1,0 +1,91 @@
+body {
+    font-family:'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 400px;
+    border: 3px solid rgb(167, 73, 7);
+    margin: 15px auto;
+}
+
+/* index.hmtl */
+
+.main-title {
+    text-align: center;
+    width: fit-content;
+    background-color: rgb(227, 154, 90);
+    padding: 10px 50px;
+}
+
+.list li {
+
+    padding: 10px;
+}
+
+.list li a {
+    color: rgb(122, 55, 13);
+}
+
+
+/* Recipe Screens */
+
+.home {
+    background-color: rgb(122, 55, 13);
+    width: fit-content;
+    margin: 10px 15px;
+    padding: 10px;
+}
+
+.home a {
+    color: white;
+    font-weight: bold;
+}
+
+.recipe-title,
+.description,
+.ingredients,
+.steps,
+.nutrition {
+    padding: 5px 15px;
+}
+
+.recipe-title {
+    text-align: center;
+    background-color: rgb(243, 168, 111);
+    margin: 15px;
+    padding: 10px;
+}
+
+.description {
+    background-color: rgb(176, 193, 255);
+    margin: 15px;
+    padding: 10px 20px;
+}
+
+.ingredients {
+    background-color: plum;
+    width: fit-content;
+    margin: 15px auto;
+}
+
+.steps {
+    background-color: rgb(255, 255, 159);
+    margin: 15px;
+}
+
+.steps ol li {
+    margin: 15px 15px;
+}
+
+.nutrition {
+    background-color: rgb(166, 253, 188);
+    width: fit-content;
+    margin: 15px auto;
+}
+
+.ingredients ul,
+.nutrition ul {
+    margin-top: -10px;
+}
